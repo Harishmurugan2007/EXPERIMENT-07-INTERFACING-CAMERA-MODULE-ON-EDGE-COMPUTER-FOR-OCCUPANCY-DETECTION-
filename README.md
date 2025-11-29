@@ -1,4 +1,3 @@
-
 # EXPERIMENT-07-INTERFACING-CAMERA-MODULE-ON-EDGE-COMPUTER-FOR-OCCUPANCY-DETECTION-
 
 
@@ -53,7 +52,9 @@ Run the code and verify that the system detects human presence and draws boundin
 
  ###  Python Code:
  
-```py
+import cv2
+import imutils
+```
 import cv2
 import imutils
 
@@ -134,9 +135,7 @@ cv2.destroyAllWindows()
 
 
 ### SCREEN SHOTS OF OUTPUT 
-![1](https://github.com/user-attachments/assets/e3bf0873-eb21-4733-bc43-fc7be6882c20)
-
-![2](https://github.com/user-attachments/assets/fddc96c9-9283-4aa6-b6f2-6550c3b76f8b)
+<img width="1920" height="1080" alt="Screenshot (40)" src="https://github.com/user-attachments/assets/ea5f3f0b-f0a9-4c7e-9390-05ff7f3cfa33" />
 
 
 ### Result:
